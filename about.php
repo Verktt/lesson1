@@ -1,7 +1,6 @@
 <?php header("refresh: 2"); ?>
 
 <?php
-	
 	$name = "Тарас";
 	$age = "21 год";
 	$email = "mamonovt@inbox.ru";
@@ -22,13 +21,13 @@
 	</head>
 	<body>
 		<h1>Страница пользователя <?= $name ?></h1>
-		 <dl>
+		<dl>
             <dt>Имя</dt>
             <dd><?= $name ?></dd>
             <dt>Возраст</dt>
             <dd><?= $age ?></dd>
             <dt>Адрес электронной почты</dt>
-            <dd><a href="mailto:<?= $email ?>"><?= $email ?></a></dd>
+            <dd><a href="<?= $email ?>"><?= $email ?></a></dd>
             <dt>Город</dt>
             <dd><?= $city ?></dd>
             <dt>О себе</dt>
